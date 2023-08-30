@@ -4,6 +4,9 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Profile from './components/Profile';
 import Counter from './components/Counter';
+import Resume from './components/Resume';
+import FunctionEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
       <Message msgcontent="This is the message for you." timetaken="10s"/>
       <Counter/>
       <Profile name="saman" lastname="piyankara" color="red"/>
+      <Resume name="world"/>
+      <FunctionEvent/>
+      <ClassEvent/>
     </div>
   );
 }
