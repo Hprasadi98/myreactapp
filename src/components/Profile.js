@@ -1,5 +1,12 @@
 function Profile(props){
-    console.log(props);
-    return <p>Name : {props.name} {props.lastname} {props.children}</p>
+    const {name, lastname,children}=props;
+    return(
+        <div>
+            <p>Name : {name} {lastname} {children}</p>
+        </div>
+        
+    );
+        
+        
 }
 export default Profile;
