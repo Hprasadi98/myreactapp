@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Hello/>
       <Profile name="prasa" lastname="vidanagamage">
-        <h5>Thank you all</h5>
+        <h5>Thank you all of you</h5>
       </Profile>
       <Profile name="lahi" lastname="Amarasinghe"/>
       <Profile name="chamo" lastname="Liyanage"/>
